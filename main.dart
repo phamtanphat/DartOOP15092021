@@ -6,9 +6,10 @@ void main() {
 
   var cat = Cat("Mèo" ,2,"Xám");
 
-  print("${cat.name} ${cat.weight} kg , màu lông ${cat.color}");
+  // print("${cat.name} ${cat.weight} kg , màu lông ${cat.color}");
 
-  cat.eat(food: "cá");
+  cat.eat();
+  cat.run();
 
   // showMessage("Xin chào");
 }

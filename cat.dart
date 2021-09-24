@@ -7,8 +7,15 @@ class Cat extends Animal {
     this.color = color;
   }
 
-  // function named option parameter
-  void eat({String food = ""}){
+  // function option named parameter
+  void eat({String? food}){
     print("$name eat $food");
+  }
+
+  // function option position parameter
+  // function option default parameter
+
+  void run([int km = 5]){
+    print("Mèo chạy được $km km");
   }
 }
