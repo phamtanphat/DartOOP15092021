@@ -1,12 +1,14 @@
 import 'animal.dart';
+import 'cat.dart';
 
 void main() {
   // class , object
 
-  var cat = Animal("Mèo" ,2);
-  cat.name = "";
+  var cat = Cat("Mèo" ,2,"Xám");
 
-  print("${cat.name} ${cat.weight} kg");
+  print("${cat.name} ${cat.weight} kg , màu lông ${cat.color}");
+
+  cat.eat(food: "cá");
 
   // showMessage("Xin chào");
 }
