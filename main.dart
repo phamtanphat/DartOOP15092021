@@ -1,12 +1,24 @@
 import 'animal.dart';
 
-void main(){
-
+void main() {
   // class , object
 
-  var cat = Animal();
-  cat.name = "Mèo";
-  cat.weight = 2;
+  // var cat = Animal();
+  // cat.name = "Mèo";
+  // cat.weight = 2;
+  //
+  // print("${cat.name} ${cat.weight} kg");
 
-  print("${cat.name} ${cat.weight} kg");
+  // showMessage("Xin chào");
 }
+
+// Phương thức
+// 1 : Giá trị trả về của phương thức
+// 2 : Ten phương thức
+
+//1  2
+// void showMessage(String message) {
+//   print(message);
+// }
+
+// void showMessage(String message) => print(message);

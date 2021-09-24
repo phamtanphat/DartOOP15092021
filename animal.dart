@@ -3,4 +3,6 @@ class Animal{
   late String name;
   late int weight;
 
+
+
 }
