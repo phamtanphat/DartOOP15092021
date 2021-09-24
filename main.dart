@@ -4,6 +4,7 @@ void main() {
   // class , object
 
   var cat = Animal("Mèo" ,2);
+  cat.name = "";
 
   print("${cat.name} ${cat.weight} kg");
 
