@@ -1,6 +1,8 @@
+import 'action.dart';
 import 'animal.dart';
+import 'hanlde.dart';
 
-class Cat extends Animal {
+class Cat extends Animal with Action , Handle{
   late String color;
 
   Cat(String name, int weight , String color) : super(name, weight) {
@@ -17,5 +19,15 @@ class Cat extends Animal {
 
   void run([int km = 5]){
     print("Mèo chạy được $km km");
+  }
+
+  @override
+  void speak() {
+    // TODO: implement speak
+  }
+
+  @override
+  void progressing() {
+    // TODO: implement progressing
   }
 }
